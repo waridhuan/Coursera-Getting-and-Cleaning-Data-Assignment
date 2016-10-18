@@ -1,6 +1,6 @@
 ## Coursera-Getting-and-Cleaning-Data-Assingment
 ========
-This repository shows my R ode and documentation files regarding Assingment Week 4 ini Module Getting and Cleaning Data
+This repository shows my R ode and documentation files regarding Assingment Week 4 in Module Getting and Cleaning Data
 
 ## Whats Inside
 ========
