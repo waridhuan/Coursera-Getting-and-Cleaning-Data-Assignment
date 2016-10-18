@@ -1,6 +1,5 @@
 #Assingment Week 4 Module 3 Getting and Cleaning Data
 
-
 #download dataset
 url<-"https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 download.file(url,"./Data/dataset.zip")
@@ -77,7 +76,6 @@ All_data<-All_data[,!duplicated(colnames(All_data))]
 mean_std_data<-select(All_data,contains("Subject"),contains("Activity"),contains("mean()"),contains("std()"))
 
 
-
 #STEP 3
 #Using descriptive activity names
 
@@ -109,7 +107,6 @@ names(mean_std_data)
 
 #STEP 5
 #Create create data set with average of each variable for each activity and subject
-
 
 library(plyr)
 
